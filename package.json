@@ -4,7 +4,8 @@
   "description": "DATA-TALK后端",
   "main": "./src/app.js",
   "scripts": {
-    "start": "nodemon ./src/app.js"
+    "start": "nodemon ./src/app.js",
+    "changelog": "conventional-changelog -p -i CHANGELOG.md -s"
   },
   "author": "hpz",
   "license": "ISC",
