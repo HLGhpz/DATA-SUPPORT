@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
   // 参数二：定义属性
   // 参数三：其他配置 https://sequelize.org/master/class/lib/model.js~Model.html#static-method-init
   const Info = sequelize.define('Info', {
-    name: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false
     },
@@ -13,11 +13,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     tag: {
       type: DataTypes.ENUM,
-      values: ['project', 'collect', 'make', 'achieve', 'pause', 'abolish'],
+      values: ['Project', 'Collect', 'Make', 'Achieve', 'Pause', 'Abolish'],
       defaultValue: 'project'
-    },
-    link: {
-      type: DataTypes.STRING,
     }
   })
   Info.associate = models => {

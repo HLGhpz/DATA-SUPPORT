@@ -11,7 +11,6 @@ specifiers:
   koa-router: ^10.1.1
   koa2-cors: ^2.0.6
   log4js: ^6.4.1
-  mockjs: ^1.1.0
   nodemon: ^2.0.15
   sequelize: ^6.17.0
   sqlite3: ^5.0.2
@@ -25,7 +24,6 @@ dependencies:
   koa-router: registry.npmmirror.com/koa-router/10.1.1
   koa2-cors: registry.npmmirror.com/koa2-cors/2.0.6
   log4js: registry.npmmirror.com/log4js/6.4.2
-  mockjs: registry.npmmirror.com/mockjs/1.1.0
   nodemon: registry.npmmirror.com/nodemon/2.0.15
   sequelize: registry.npmmirror.com/sequelize/6.17.0_sqlite3@5.0.2
   sqlite3: registry.npmmirror.com/sqlite3/5.0.2
@@ -704,13 +702,6 @@ packages:
       delayed-stream: registry.npmmirror.com/delayed-stream/1.0.0
     dev: false
     optional: true
-
-  registry.npmmirror.com/commander/9.0.0:
-    resolution: {integrity: sha512-JJfP2saEKbQqvW+FI93OYUB4ByV5cizMpFMiiJI8xDbBvQvSkIk0VvQdn1CZ8mqAO8Loq2h0gYTYtDFUZUeERw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/commander/-/commander-9.0.0.tgz}
-    name: commander
-    version: 9.0.0
-    engines: {node: ^12.20.0 || >=14}
-    dev: false
 
   registry.npmmirror.com/commitizen/4.2.4:
     resolution: {integrity: sha512-LlZChbDzg3Ir3O2S7jSo/cgWp5/QwylQVr59K4xayVq8S4/RdKzSyJkghAiZZHfhh5t4pxunUoyeg0ml1q/7aw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/commitizen/-/commitizen-4.2.4.tgz}
@@ -2288,15 +2279,6 @@ packages:
     hasBin: true
     dependencies:
       minimist: registry.npmmirror.com/minimist/1.2.5
-
-  registry.npmmirror.com/mockjs/1.1.0:
-    resolution: {integrity: sha512-eQsKcWzIaZzEZ07NuEyO4Nw65g0hdWAyurVol1IPl1gahRwY+svqzfgfey8U8dahLwG44d6/RwEzuK52rSa/JQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mockjs/-/mockjs-1.1.0.tgz}
-    name: mockjs
-    version: 1.1.0
-    hasBin: true
-    dependencies:
-      commander: registry.npmmirror.com/commander/9.0.0
-    dev: false
 
   registry.npmmirror.com/moment-timezone/0.5.34:
     resolution: {integrity: sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/moment-timezone/-/moment-timezone-0.5.34.tgz}
